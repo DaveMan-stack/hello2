@@ -1,18 +1,56 @@
 <html>
     <head>
         <title>Learn</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            header{
+                width: 100%;
+                height: 80px;
+                background-color: blue;
+            }
+            #navigation{
+                float: left;
+                margin-top: 25px;
+                margin-left: 20px;
+                
+            }
+            .main_heading, .nav{
+                font-size: 18px;
+                font-family: Tahoma;
+                font-weight: bold;
+                padding-left: 30px;
+            }
+            .nav{
+                display: inline;
+            }
+            #prof_nav{
+                float: left;
+                margin-left: 300px;
+                
+            }
+            .prof_img{
+                border: solid black 5px;
+                border-radius: 25px;
+                width: 100px;
+                height: 80px;
+            }
+        </style>
     </head>
     <body>
         <header>
             
             <div id="navigation">
-                <h1>Home</h1>
-                <a>Contents</a>
-                <a>Repos</a>
+
+                <h1 class="main_heading nav">Home</h1>
+                <a class="nav">Contents</a>
+                <a class="nav">Repos</a>
                 
             </div>
             <div>
-                <a href="">Profiles</a>
+                <a href="" id="prof_nav"><img src="lipic.png" class="prof_img"></a>
+
             </div>
         </header>
         <section>
